@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="container">
+            <h1 id="title">Programming Survey Form</h1>
+            <p id="description">This survey is for people interested in programming.</p>
+            </div>
+        <form id="survey-form">
+            <div id="div-name">
+                <label id="name-label">
+                    <p id="p1">Name</p>
+                </label>
+                <input id="name" type="text" placeholder="Enter your Name" required>
+            </div><br>
+            <div id="div-email">
+                <label id="email-label">
+                    <p id="p2">Email</p>
+                </label>
+                <input id="email" type="email" placeholder="Enter your Email" required>
+            </div><br>
+            <div id="div-number">
+                <label id="number-label">
+                    <p id="p3">Age</p>
+                </label>
+                <input id="number" type="number" placeholder="Enter your Age" min="5" max="100">
+            </div>
+            <div id="div-select">
+                <p>What is your current role?</p>
+                <select id="dropdown">
+                    <option value="1">Student
+                    <option value="2">Part-time job 
+                    <option value="3">Full-time job
+                    <option value="4">Part-time learner
+                    <option value="5">Full-time learner
+                    <option value="6">other
+                </select>
+            </div><br>
+            <div id="div-input">
+                <div id="input-radio">
+                    <p id="p">Would you recommend people to learn programming?</p>
+                    <input type="radio" value="radio" name="radio"> Yes<br>
+                    <input type="radio" value="radio" name="radio"> No<br>
+                    <input type="radio" value="radio" name="radio"> Depends<br>
+                    <input type="radio" value="radio" name="radio"> Other<br>
+                </div>
+                <p id="p4">Which type of programmer are you interested in becoming?</p>
+                <div id="input-checkbox">
+                    <input type="checkbox" value="checkbox" name="checkbox">Front-end<br>
+                    <input type="checkbox" value="checkbox" name="checkbox">Back-end<br>
+                    <input type="checkbox" value="checkbox" name="checkbox">Full-stack<br>
+                    <input type="checkbox" value="checkbox" name="checkbox">Other<br>
+                </div>
+            </div><br>
+            <div id="div-textarea">
+                <p id="comment">Any comments or suggestions?</p>
+                <textarea id="textarea" placeholder="Enter your comments here"></textarea><br>
+                <button id="submit">Submit
+            </div>
+        </form>
+    </body>
+</html>

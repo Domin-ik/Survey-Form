@@ -1,0 +1,20 @@
+#title, #description, form {
+    text-align: center;
+  }
+  #name, #email, #number, #dropdown, #submit {
+    width: 450px;
+    height: 30px;
+  }
+  #textarea {
+    width: 450px;
+    height: 100px;
+  }
+  #title {
+    font-size: 40px
+  }
+  #description {
+    font-size: 15px;
+  }
+  button {
+    background-color: #5dc260;
+  }
